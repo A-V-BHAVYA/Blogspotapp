@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "731320028945",
+    "firebase_url": "https://blogspot-88e2b.firebaseio.com",
+    "project_id": "blogspot-88e2b",
+    "storage_bucket": "blogspot-88e2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731320028945:android:15ca608e4cb60aa17b06b0",
+        "android_client_info": {
+          "package_name": "com.example.blogspot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731320028945-j9ilnn4jpp77tdvdnvntv3tl2cpvlu1o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.blogspot",
+            "certificate_hash": "402758c8c529b1f72ab99c6ca13893c2c6bfbd7d"
+          }
+        },
+        {
+          "client_id": "731320028945-qsoq5o4ih459gvqge8poe59lneqqp3d6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7u_dLYIzGTaxKipBFk874cLo_JeiqDG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731320028945-qsoq5o4ih459gvqge8poe59lneqqp3d6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:gravity="center">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:focusable="auto"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="“Blogging is a conversation, not a code.”"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+
+
+            <EditText
+                android:id="@+id/Fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:hint="First Name"
+                />
+            <EditText
+                android:id="@+id/Lname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:hint="Last Name"
+                />
+            <EditText
+                android:id="@+id/ETemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="Email"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:inputType="textEmailAddress"
+                />
+            <EditText
+                android:id="@+id/ETpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="Password (Minimum 6 digits)"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:inputType="numberPassword"
+                />
+
+            <EditText
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="Contact Number"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:inputType="number"
+                />
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Sign Up"/>
+            <TextView
+                android:id="@+id/TVSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:text="Already have an account? Sign in Here"
+                android:textSize="20dp"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+</LinearLayout>
